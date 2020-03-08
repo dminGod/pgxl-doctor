@@ -1,0 +1,14 @@
+The list of common problems that generally occur:
+
+- Different nodes in the cluster view each other differently - Some may refer to themselves or others with localhost 
+and default ports rather than correct references.
+
+- Configuration of the max pool size and max connections between the coordiantor and the datanode is wrong -- this leads 
+to 'connection pool issues'
+
+- What servers themselves not reachable on your cluster
+
+- What nodes are up and what nodes are down? 
+
+- What about the HDD utilization on the cluster, any machine where the HDD is getting full?
+
